@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "formidable": "^1.2.1",
+    "jwt-simple": "^0.5.1",
+    "md5": "^2.2.1",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "_charenc@0.0.2@charenc": "^0.0.2",
+    "_crypt@0.0.2@crypt": "^0.0.2",
+    "_is-buffer@1.1.6@is-buffer": "^1.1.6",
+    "_md5@2.2.1@md5": "^2.2.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "charenc": "^0.0.2",
+    "crypt": "^0.0.2",
+    "express": "^4.16.3",
+    "is-buffer": "^1.1.6",
+    "mongodb": "^3.1.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,32 @@
+8.29
+1、管理员的登陆
+2、管理员的修改
+3、查看管理的日志
+*************************vue-resource*************************************
+1、下载
+    cnpm install vue-resource
+2、全局使用
+    import VueResource from 'vue-resource'
+    Vue.use(VueResource)
+3、this.$http.get("url",{}).then(function(){});
+   this.$http.jsonp("url",{},{jsonp:cb}).then(function(){});
+   this.$http.post
+
+   OPTIONS:在POST请求之前会有一次尝试请求。看看你是否支持POST.
+   默认是JSON格式。
+    this.$http.post("http://127.0.0.1/login",{
+       a:1,
+       b:2
+    }).then(function(results){
+       alert(JSON.stringify(results));
+    })
+
+
+
+
+
+
+
+
+ post vuex
+4、用户管理，商品管理，店铺管理，管理员管理，广告管理，流水管理

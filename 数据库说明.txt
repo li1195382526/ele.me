@@ -1,0 +1,12 @@
+1.管理员信息集合（adminList）
+ id：唯一标示
+ adminName:管理员姓名
+ password:密码
+ lastTime:最后登录的时间
+2.管理员的日志
+id:唯一标示
+adminId:管理员ID
+adminType:日志类别：
+addTime：操作时间
+mark；说明
+3、管理员的登录日志
